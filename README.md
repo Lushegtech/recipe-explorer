@@ -1,6 +1,6 @@
 # Recipe Explorer
 
-![Project Logo]([https://www.pexels.com/photo/sheet-of-paper-beside-pasta-4033296/]) 
+![Project Logo](https://www.pexels.com/photo/sheet-of-paper-beside-pasta-4033296/) 
 
 ## Table of Contents
 - [Description](#description)
