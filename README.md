@@ -28,4 +28,4 @@ Recipe Explorer is a web application that allows users to discover, explore, and
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/recipe-explorer.git
+   git clone https://github.com/lushegtech/recipe-explorer.git
