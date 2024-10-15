@@ -9,7 +9,7 @@ app.set('view engine', 'ejs' );
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render("index.ejs",  {foods: [], error: null});
+    res.render("index",  {foods: [], error: null});
 });
 
 app.get('/search', async (req, res) => {
@@ -17,7 +17,7 @@ const searchQuery = req.query.q;
     try {
         const response = await axios.get(API_URL + searchQuery)
         const { meals } = response.data
-        res.render("index.ejs", { foods: meals || [], error: null });
+        res.render("index", { foods: meals || [], error: null });
 }   catch (error) {
     console.error(error)
     res.render("index.ejs", { foods: null, error: "error fetching meal recipe, please try again" });
