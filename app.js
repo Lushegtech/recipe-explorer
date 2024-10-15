@@ -20,7 +20,7 @@ const searchQuery = req.query.q;
         res.render("index", { foods: meals || [], error: null });
 }   catch (error) {
     console.error(error)
-    res.render("index.ejs", { foods: null, error: "error fetching meal recipe, please try again" });
+    res.render("index", { foods: null, error: "error fetching meal recipe, please try again" });
 }
 
 });
